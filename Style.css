@@ -1,0 +1,67 @@
+body
+{
+  background: url(bg.png);
+}
+section
+{
+  width: 60%;
+  min-width: 800px;
+  background-color: aliceblue;
+  padding: 20px;
+  margin: auto;
+}
+h1
+{
+  color: azure;
+  font-family: Georgia, 'Trebuchets MS', serif ;
+  font-size: 3em;
+  text-align: center;
+}
+h1:hover
+{
+  color: indigo;
+  text-shadow: none;
+}
+h2
+{
+  color: teal;
+  font-family: serif;
+}
+h3
+{
+  color: lightseagreen;
+  font-family: serif;
+}
+h1, h2, h3
+{
+  text-shadow: 6px 6px 3px silver;
+}
+.intro
+{
+  font-style: italic;
+  text-align: center;
+  text-decoration: blink;
+}
+p, ul, figure
+{
+  font-family: 'comic sans ms', 'times new roman',georgia, arial,serif;
+  text-align: justify;
+
+  color: black;
+  opacity: 0.9;
+}
+figure
+{
+  text-align: center;
+}
+img
+{
+  border: 5px groove teal;
+  border-top: 5px groove black;
+  border-left: 5px groove black;
+  box-shadow: 9px 10px 3px silver;
+}
+a:hover
+{
+  color:lightseagreen;
+}
